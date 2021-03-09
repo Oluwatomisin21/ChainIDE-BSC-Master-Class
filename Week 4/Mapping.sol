@@ -8,7 +8,7 @@ contract MappingRecord {
         balanceOf[msg.sender] = balance;
     }
 
-    function getBalace() public view returns(uint){
+    function getBalance() public view returns(uint){
         return(balanceOf[msg.sender]);
     }
 }
